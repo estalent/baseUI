@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/leftnav_bar_item_background_dark"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:visibility="gone" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/left_nav_icon_size"
+        android:layout_height="@dimen/left_nav_icon_size"
+        android:src="@drawable/tui_ic_btn_search_normal" />
+
+    <EditText
+        android:id="@+id/title"
+        style="@style/Widget.ActionButton.Overflow_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7.0dip"
+        android:layout_marginRight="7.0dip"
+        android:hint="@string/top_search_string" />
+
+</LinearLayout>

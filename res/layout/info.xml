@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yunos.tv.widget.TLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/horizontal_listview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:orientation="vertical"
+    android:paddingLeft="20.0dip"
+    android:paddingRight="40.0dip"
+    android:paddingTop="10.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.yunos.tv.widget.TTextView
+            android:id="@+id/info_t1"
+            android:layout_width="400.0dip"
+            android:layout_height="300.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#ff000000"
+            android:gravity="center"
+            android:text="@string/playcontrol" />
+
+        <LinearLayout
+            android:layout_width="840.0px"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10.0dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/playing" />
+
+            <com.yunos.tv.widget.THorizontalListView
+                android:id="@+id/info_list1"
+                android:layout_width="fill_parent"
+                android:layout_height="140.0px"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hotplay" />
+
+            <com.yunos.tv.widget.THorizontalListView
+                android:id="@+id/info_list2"
+                android:layout_width="fill_parent"
+                android:layout_height="140.0px" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mySave" />
+
+    <com.yunos.tv.widget.TGridView
+        android:id="@+id/info_list3"
+        android:layout_width="wrap_content"
+        android:layout_height="300.0px"
+        android:numColumns="7" />
+
+</com.yunos.tv.widget.TLinearLayout>

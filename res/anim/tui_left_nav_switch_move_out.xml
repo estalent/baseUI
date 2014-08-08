@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+    <objectAnimator android:duration="@integer/tui_config_fragmentDefaultDur" android:valueFrom="1" android:valueTo="0" android:propertyName="alpha"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <objectAnimator android:duration="@integer/tui_config_fragmentDefaultDur" android:valueFrom="0" android:valueTo="72" android:propertyName="translationY"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</set>

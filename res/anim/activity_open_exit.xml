@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:background="#ff000000" android:zAdjustment="normal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@anim/tui_circ_out_interpolator" android:duration="@integer/tui_config_activityDefaultDur" android:fromAlpha="1.0" android:toAlpha="0.0" />
+    <translate android:interpolator="@anim/tui_circ_out_interpolator" android:duration="@integer/tui_config_activityDefaultDur" android:fromXDelta="0.0" android:toXDelta="-29.999996%" />
+</set>

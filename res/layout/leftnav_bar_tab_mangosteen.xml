@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.viva.tv.app.TabFrame xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/leftnav_bar_tab"
+    style="@style/Widget.ActionBarView_TabView"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/tui_line_height_1"
+    android:focusable="false"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/tui_padding_6" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="true" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Widget.ActionBarView_TabText.Mangosteen"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/tui_margin_1"
+        android:layout_weight="1.0"
+        android:duplicateParentState="true"
+        android:visibility="gone" />
+
+</io.viva.tv.app.TabFrame>

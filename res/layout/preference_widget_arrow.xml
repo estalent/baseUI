@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tui_status_text_arrow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawableRight="@drawable/tui_ic_rightarrow"
+    android:gravity="right|center"
+    android:textAppearance="@style/TextAppearance.Ali.TV"
+    android:textColor="@color/primary_text_dark" />

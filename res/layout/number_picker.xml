@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <io.viva.tv.app.widget.NumberPickerButton
+        android:id="@+id/increment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/numberpicker_up_btn"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/numberpicker_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/numberpicker_input"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#ffffffff"
+        android:textSize="36.0sp" />
+
+    <io.viva.tv.app.widget.NumberPickerButton
+        android:id="@+id/decrement"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/numberpicker_down_btn"
+        android:visibility="visible" />
+
+</merge>

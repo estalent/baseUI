@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <io.viva.tv.app.MainLinearLayout
+        android:id="@+id/main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/tui_topnavbar_bg"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/tui_padding_1" >
+
+        <LinearLayout
+            android:id="@+id/homeDisplay"
+            android:layout_width="@dimen/top_nav_second_region_width"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/top_nav_btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tui_top_nav_btn_back_seletor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tabDisplay"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" >
+
+                <io.viva.tv.app.TabHorizontalListView
+                    android:id="@+id/tab_list_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:fadingEdgeLength="100.0dip"
+                    android:gravity="center_vertical"
+                    android:requiresFadingEdge="horizontal"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/top_title"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.ActionBar_Title"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/optionDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:minWidth="56.0dip"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/top_search"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="@dimen/left_nav_icon_size"
+                    android:layout_height="@dimen/left_nav_icon_size"
+                    android:src="@drawable/tui_ic_btn_search_normal" />
+
+                <EditText
+                    android:id="@+id/title"
+                    style="@style/Widget.ActionButton.Overflow_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.0dip"
+                    android:layout_marginRight="7.0dip"
+                    android:hint="@string/top_search_string" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/shown_options"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/icon_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </io.viva.tv.app.MainLinearLayout>
+
+</merge>

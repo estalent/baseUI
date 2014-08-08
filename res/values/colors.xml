@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom_activated">#33ff0000</color>
+    <color name="custom_normal">#3300ff00</color>
+    <color name="list_normal">#ff999999</color>
+    <color name="list_activated">#ff000000</color>
+    <color name="tui_text_color_grey">#ff999999</color>
+    <color name="tui_text_color_white">#ffffffff</color>
+    <color name="tui_text_color_grey_2">#ff666666</color>
+    <color name="tui_text_color_orange">#ffe75000</color>
+    <color name="tui_color_divider_listview">#a1ffffff</color>
+    <color name="tui_color_progressbar">#ff2ba3ff</color>
+    <color name="tui_color_dialog_mask">#9a000000</color>
+    <color name="tui_text_color_black">#c0000000</color>
+    <color name="tui_text_shadow_color_blue">#ff0099ff</color>
+    <color name="tui_color_search_gray">#ff8d8d8d</color>
+    <color name="tui_color_search_selected">#ffc5c5c5</color>
+    <color name="tui_color_search_shadow">#ff0099ff</color>
+</resources>

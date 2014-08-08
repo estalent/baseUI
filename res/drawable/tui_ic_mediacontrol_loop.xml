@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector name="tui_ic_mediacontrol_loop"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:drawable="@drawable/tui_ic_mediacontrol_loop_focus" />
+    <item android:drawable="@drawable/tui_ic_mediacontrol_loop_normal" />
+</selector>

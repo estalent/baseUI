@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="imageWidth" format="dimension" />
+    <attr name="imageHeight" format="dimension" />
+    <attr name="progressBarVisibility" format="boolean" />
+    <attr name="statusText" format="string" />
+    <attr name="withReflection" format="boolean" />
+    <attr name="imageReflectionRatio" format="float" />
+    <attr name="reflectionGap" format="dimension" />
+    <attr name="enlarged" format="boolean" />
+    <attr name="selectableItemBackground" format="reference" />
+    <attr name="PageIndicator" format="reference" />
+    <attr name="selectorPreferenceStyle" format="reference" />
+    <attr name="rightTextStatusPreferenceStyle" format="reference" />
+    <attr name="iconPreferenceScreenStyle" format="reference" />
+    <attr name="horizontalListViewStyle" format="reference" />
+    <attr name="numberIndicatorStyle" format="reference" />
+    <attr name="currentPage" format="integer" />
+    <attr name="totalPages" format="integer" />
+    <attr name="isMultiSelect" format="boolean" />
+    <attr name="itemDrawable" format="reference" />
+</resources>

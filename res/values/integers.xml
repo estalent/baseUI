@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="tui_config_animation_duration">200</integer>
+    <integer name="tui_config_animation_short_duration">100</integer>
+    <integer name="tui_config_alertDialogDefaultDur">300</integer>
+    <integer name="tui_config_fragmentDefaultDur">300</integer>
+    <integer name="tui_config_activityDefaultDur">800</integer>
+    <integer name="tui_config_taskShortDur">450</integer>
+    <integer name="tui_config_taskDelayDur">150</integer>
+    <integer name="tui_config_taskDefaultDur">600</integer>
+</resources>
